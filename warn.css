@@ -1,0 +1,36 @@
+
+.warn2 {
+  padding: 20px;
+  background-color: #f4d136;
+  color: rgb(56, 56, 56);
+  width: 30%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: -10;
+  display: none;
+  transition: 1s cubic-bezier(0.87, 0, 0.13, 1) 0s;
+  box-shadow:  6px 9px 56px 2px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 6px 9px 56px 2px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 6px 9px 56px 2px rgba(0, 0, 0, 0.48);
+  transition: 1s;
+}
+.warn2:hover {
+  box-shadow:  6px 9px 56px 8px rgba(0, 0, 0, 0.80);
+  -webkit-box-shadow: 6px 9px 56px 8px rgba(0, 0, 0, 0.80);
+  -moz-box-shadow: 6px 9px 56px 8px rgba(0, 0, 0, 0.80);
+}
+.closebtn {
+  margin-left: 15px;
+  color: rgb(56, 56, 56);
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: rgb(20, 20, 20);
+}
